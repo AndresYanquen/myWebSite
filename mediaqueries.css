@@ -13,6 +13,11 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .experience-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
   #desktop-nav {
     display: none;
   }
@@ -48,6 +53,13 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .experience-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
   #contact,
   footer {
     height: 40vh;
